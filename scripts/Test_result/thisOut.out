@@ -1,0 +1,5 @@
+./PerformanceTest.sh: line 75: out-static/db_bench: No such file or directory
+./PerformanceTest.sh: line 75: out-static/db_bench: No such file or directory
+./PerformanceTest.sh: line 75: out-static/db_bench: Is a directory
+./PerformanceTest.sh: line 75: out-static/db_bench: Is a directory
+./PerformanceTest.sh: line 75: out-static/db_bench: Is a directory

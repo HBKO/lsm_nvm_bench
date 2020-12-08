@@ -1,0 +1,1 @@
+numactl -N 0 /home/ayj/lsm_nvm/out-static/db_bench --threads=1 --write_buffer_size= --nvm_buffer_size= --db_disk=/SSD/ayj_lsm_nvm/ --value_size=4096 --benchmarks=fillrandom --num=1048576 --num_read_threads=1 >> TthisOut.out 2>&1

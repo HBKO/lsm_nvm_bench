@@ -1,0 +1,8 @@
+pmem_path is /pmem0/ayj_lsm_nvm/
+../out-static/db_bench --threads=1 --num_levels=2 --write_buffer_size=64 --nvm_buffer_size=9216 --db_disk=/SSD/ayj_lsm_nvm/ --value_size=1024 --benchmarks=fillrandom --num=41943040 --num_read_threads=1 >> ../out-static//thisOut.out 2>&1
+cp: 无法获取"NVM_LOG" 的文件状态(stat): 没有那个文件或目录
+cp: 无法获取"Latency.csv" 的文件状态(stat): 没有那个文件或目录
+pmem_path is /pmem0/ayj_lsm_nvm/
+../out-static/db_bench --threads=1 --num_levels=2 --write_buffer_size=64 --nvm_buffer_size=9216 --db_disk=/SSD/ayj_lsm_nvm/ --value_size=4096 --benchmarks=fillrandom --num=10485760 --num_read_threads=1 >> ../out-static//thisOut.out 2>&1
+cp: 无法获取"NVM_LOG" 的文件状态(stat): 没有那个文件或目录
+cp: 无法获取"Latency.csv" 的文件状态(stat): 没有那个文件或目录
